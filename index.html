@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+    <head>
     <title>Bold Outlook &mdash; Open Source</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/grid.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <style>
-    .nav {
-        background: #EEE;
-        color: #333;
-        height: 28px;
-        font-size: 10pt;
-        font-family: "Helvetica Neue", Arial, Helvetica;
-        font-weight: 300;
-    }
-    .nav ul {
-        list-style: none;
-        width: 960px;
-        margin: 0 auto;
-    }
-    .nav li {
-        float: left;
-        padding: 5px 16px;
-    }
-    .nav li a {
-        color: #666;
-    }
-    .nav li a:hover {
-        color: #999;
-        text-decoration: none;
-    }
-    .nav li.active {
-        background: #333;
-        color: #FFF;
-        font-weight: bold;
-        padding: 4px 16px 7px;
-    }
-    .nav li.active a {
-        color: #FFF;
-    }
-    body {
-        border-top: 10px solid #333;
-    }
-    </style>
+.nav {
+	background: #EEE;
+	color: #333;
+	height: 28px;
+	font-size: 10pt;
+	font-family: "Helvetica Neue", Arial, Helvetica;
+	font-weight: 300;
+}
+.nav ul {
+	list-style: none;
+	width: 960px;
+	margin: 0 auto;
+}
+.nav li {
+	float: left;
+	padding: 5px 16px;
+}
+.nav li a {
+	color: #666;
+}
+.nav li a:hover {
+	color: #999;
+	text-decoration: none;
+}
+.nav li.active {
+	background: #333;
+	color: #FFF;
+	font-weight: bold;
+	padding: 4px 16px 7px;
+}
+.nav li.active a {
+	color: #FFF;
+}
+body {
+	border-top: 10px solid #333;
+}
+</style>
     <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="assets/strftime.js"></script>
     <script type="text/javascript">
@@ -150,43 +150,51 @@
     </script>
     <script type="text/javascript">
     </script>
-  </head>
-  <body>
-      <div class="nav">
+    </head>
+    <body>
+<div class="nav">
       <ul>
-          <li><a href="http://boldoutlook.com/">Bold Outlook</a></li>
-          <li class="active"><a href="http://boldoutlook.github.io/">Open Source</a></li>
-      </ul>
-      </div>
-      
-    <div id="wrapper" class="grid clearfix">
+    <li><a href="http://boldoutlook.com/">Bold Outlook</a></li>
+    <li class="active"><a href="http://boldoutlook.github.io/">Open Source</a></li>
+  </ul>
+    </div>
+<div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
-        <div id="logo"></div>
-        <h1>Bold Outlook</h1>
-        <!--<h3></h3>
+    <div id="logo"></div>
+    <h1>Bold Outlook</h1>
+    <!--<h3></h3>
         <p>Please support me<br>on <a href="https://www.gittip.com/boldoutlook/">gittip</a>.</p>-->
-        <p>
-          <a href="https://twitter.com/boldoutlook" class="twitter-follow-button">Follow @boldoutlook</a>
-          <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <p> <a href="https://twitter.com/boldoutlook" class="twitter-follow-button">Follow @boldoutlook</a> 
+          <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script> 
         </p>
-      </div>
-
+  </div>
       <div class="grid grid-3">
-        <div id="statistics" class="grid-1 alpha header">
+    <div id="statistics" class="grid-1 alpha header">
           <h1>Statistics</h1>
-          <p>
-            <a href="https://github.com/boldoutlook/repositories"><span id="num-repos">&nbsp;</span> public repos</a>
-          </p>
+          <p> <a href="https://github.com/boldoutlook/repositories"><span id="num-repos">&nbsp;</span> public repos</a> </p>
           <p>This page generated with code from Twitter.</p>
         </div>
-
-        <div id="recently-updated" class="grid-2 omega header">
+    <div id="recently-updated" class="grid-2 omega header">
           <h1>Recently updated <a href="https://github.com/boldoutlook/repositories">View All on GitHub</a></h1>
-          <ol id="recently-updated-repos"></ol>
+          <ol id="recently-updated-repos">
+      </ol>
         </div>
-      </div>
-
-      <ol id="repos"></ol>
+  </div>
+      <ol id="repos">
+  </ol>
     </div>
-  </body>
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '519b8be1108d7b554b000042');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+</body>
 </html>
