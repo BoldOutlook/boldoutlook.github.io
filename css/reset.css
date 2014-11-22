@@ -38,10 +38,15 @@ body {
     margin-bottom: -25px;
 }
 .jumbotron p {
-    color: #d3dde6;
+    color: #c1e089;
+		font-size: 175%;
 }
 .jumbotron h1 {
     font-weight: normal;
+}
+h1.page-title {
+	color: #86bd40;
+	margin-top: 0;
 }
 .bg-primary {
     background-color: #6ec8c7;
