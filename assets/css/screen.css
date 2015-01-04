@@ -2632,10 +2632,14 @@ h1 span.small {
 font-size: .9em;
 line-height: 1.7em
 }
-.top-menu {
-  font-size:90%;
+.navigation {
   float:right;
+}
+.top-menu {
+  font-size:100%;
+  text-align:right;
   margin-bottom: 10px;
+  color:#ccc;
 }
 .top-menu a,.top-menu a:link,.top-menu a:active,.top-menu a:visited{
   color:#333;
@@ -2646,13 +2650,28 @@ line-height: 1.7em
   color:#000;
   text-decoration:underline;
 }
+.nav-menu {
+  font-size:100%;
+  text-align:right;
+  margin-bottom: 10px;
+  color:#ccc;
+}
+.nav-menu a,.nav-menu a:link,.nav-menu a:active,.nav-menu a:visited{
+  color:#333;
+  text-decoration:none;
+  font-size:115%;
+}
+.nav-menu a:hover{
+  color:#000;
+  text-decoration:underline;
+}
 body {
   background:#fafafa;
   margin:20px 10px;
 }
 .wrapper {
-  width:100%;
-  max-width:1400px;
+  width:90%;
+  max-width:1360px;
   background:#fff;
   border:1px solid #eee;
   padding: 40px 40px 60px;
@@ -2670,4 +2689,9 @@ h1 {
   margin-top:0;
   margin-bottom:28px;
   border-bottom:1px solid #eee;
+}
+.img-responsive {
+  display:block;
+  max-width:100%;
+  height:auto
 }
