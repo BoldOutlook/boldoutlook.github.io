@@ -46,11 +46,11 @@
   background-image: none;
 }
 .btn-default {
-  background-image: -webkit-linear-gradient(top, #ffb648 0%, #ff9e0b 100%);
-  background-image: -o-linear-gradient(top, #ffb648 0%, #ff9e0b 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb648), to(#ff9e0b));
-  background-image: linear-gradient(to bottom, #ffb648 0%, #ff9e0b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffb648', endColorstr='#ffff9e0b', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #A4CD38 0%, #ff9e0b 100%);
+  background-image: -o-linear-gradient(top, #A4CD38 0%, #ff9e0b 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A4CD38), to(#ff9e0b));
+  background-image: linear-gradient(to bottom, #A4CD38 0%, #ff9e0b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffA4CD38', endColorstr='#ffff9e0b', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   border-color: #ff9a01;
@@ -210,12 +210,12 @@
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  background-image: -webkit-linear-gradient(top, #ffb648 0%, #ffac2e 100%);
-  background-image: -o-linear-gradient(top, #ffb648 0%, #ffac2e 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb648), to(#ffac2e));
-  background-image: linear-gradient(to bottom, #ffb648 0%, #ffac2e 100%);
+  background-image: -webkit-linear-gradient(top, #A4CD38 0%, #ffac2e 100%);
+  background-image: -o-linear-gradient(top, #A4CD38 0%, #ffac2e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A4CD38), to(#ffac2e));
+  background-image: linear-gradient(to bottom, #A4CD38 0%, #ffac2e 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffb648', endColorstr='#ffffac2e', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffA4CD38', endColorstr='#ffffac2e', GradientType=0);
   background-color: #ffac2e;
 }
 .dropdown-menu > .active > a,

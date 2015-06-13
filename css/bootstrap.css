@@ -2237,7 +2237,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #ffb648;
+  background-color: #A4CD38;
   border-color: #ffac2e;
 }
 .btn-default:hover,
@@ -2273,11 +2273,11 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #ffb648;
+  background-color: #A4CD38;
   border-color: #ffac2e;
 }
 .btn-default .badge {
-  color: #ffb648;
+  color: #A4CD38;
   background-color: #ffffff;
 }
 .btn-primary {
@@ -2668,7 +2668,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background-color: #ffb648;
+  background-color: #A4CD38;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
