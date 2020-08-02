@@ -3,3 +3,9 @@ description: Keeping designers and developers informed
 show_downloads: false
 google_analytics: UA-76958710-17
 theme: jekyll-theme-cayman
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+paginate: 6
+paginate_path: "/page:num/"
