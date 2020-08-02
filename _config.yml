@@ -4,6 +4,13 @@ show_downloads: false
 google_analytics: UA-76958710-17
 theme: jekyll-theme-cayman
 permalink: pretty
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /:slug/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
