@@ -2,7 +2,7 @@ title: Bold Outlook
 description: Keeping designers and developers informed
 show_downloads: false
 google_analytics: UA-76958710-17
-theme: jekyll-theme-cayman
+remote_theme: brandonhimpfen/journal
 permalink: pretty
 collections:
   pages:
@@ -14,5 +14,6 @@ collections:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
 paginate: 6
 paginate_path: "/page:num/"
